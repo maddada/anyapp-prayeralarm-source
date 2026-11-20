@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="anyapp_prayer_pill">#FFFFFFFF</color>
+  <color name="anyapp_prayer_pill_text">#FF000000</color>
+</resources>

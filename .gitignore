@@ -1,0 +1,44 @@
+# dependencies
+node_modules/
+
+# Generated native project (made by the builder with `expo prebuild`; never edit by hand)
+/android
+/ios
+
+# Build output anywhere: APKs and logs (build/apk/, build/logs/) and the native builds Gradle,
+# CMake and Kotlin leave next to local modules (modules/*/android/build/, .cxx/, .gradle/, .kotlin/).
+# After a build, `git status` must show only what was changed by hand.
+build/
+.cxx/
+.gradle/
+.kotlin/
+*.hprof
+local.properties
+dist/
+
+# Expo / Metro
+.expo/
+web-build/
+expo-env.d.ts
+.metro-health-check*
+*.tsbuildinfo
+
+# Signing material never lives in the app
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.pem
+
+# logs and local env
+*.log
+npm-debug.*
+.env*.local
+.DS_Store
+*.orig.*
+
+# Added by Kiwimake
+modules/*/android/build/
+modules/*/android/.cxx/
+modules/*/android/.gradle/
